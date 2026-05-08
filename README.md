@@ -21,15 +21,13 @@ This data was downloaded from TCGA under the NIH Genomic Data Sharing Policy
 
 ## How to Recreate the Database
 1. Install required software.
-2. Download the raw data from TCGA.
+2. Download the raw data.
 3. Run the cleaning scripts in order.
 4. Run the SQL schema file.
-5. Use generate_inserts.py to create insert_data.sql. 
+5. Populate the database using insert_data.sql. 
 6. Load the cleaned data.
 7. Compare with documentation to make sure database was properly created. 
 
 ## Documentation and Diagrams
 Documentation and data dictionary are in docs/coloncancer_database_documentation and model diagrams are located in diagrams.
 
-## Important Note
-Again, raw mutation data and SQL dump is not in this repository as they are too large to upload; make sure to download that file and create insert_data.sql in addition to using the data here. 
