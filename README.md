@@ -10,11 +10,15 @@ I designed and populated a colorectal cancer database. The information in this d
 - Key packages or libraries: Pandas
 
 ## Repository Structure
-sql: SQL scripts to create database schema. NOTE: the database dump with INSERT statements is not included here as the file is too large to upload to GitHub. Generate the INSERT statement using the generate_inserts.py file. 
+sql: SQL scripts to create database schema. And, the database dump that will create and populate the database completely.  
+
 scripts: Python scripts to clean the raw data and generate the insert sql statements from cleaned files. 
+
 data: the raw data from TCGA and the cleaned data files from which the insert sql statements are created. 
+
 docs: full project documentation with project overview, structure and cleaning logic, database design, dictionary, reproduction instructions, etc.. 
-diagrams: Normalized database diagrams from MySQL and database diagram with directionality. 
+
+diagrams: normalized database diagrams from MySQL and database diagram with directionality. 
 
 ## Data Sources
 This data was downloaded from TCGA under the NIH Genomic Data Sharing Policy 
