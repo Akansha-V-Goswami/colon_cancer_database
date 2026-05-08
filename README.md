@@ -1,5 +1,5 @@
 # colon_cancer_database
-Script, data, and instructions to generate a database for The Cancer Genome Atlas data
+Script, data, and instructions to generate a database from The Cancer Genome Atlas data.
 
 ## Summary
 I designed and populated a colorectal cancer database. The information in this database is both molecular and clinical, sourced from the Cancer Genome Atlas (TCGA), where large amounts of data from cancer patients and samples are available as downloadable TXTs. This kind of data, spread across multiple files with the possibility of multiple redundancies, can be difficult to work with and combine with other information. This database solves this problem by cleaning and storing all the data into a single schema so that the data can be easily found, interpreted, and compiled. Plus, the database can be more easily queried than multiple different files. This database is for researchers and students who are working with colorectal cancer data from TCGA that want to investigate, store, and understand the available information. The final database contains 1.6 million+ rows of patient information, tumor samples, unique mutations, gene information, and mRNA expression from 106 samples. 
