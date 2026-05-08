@@ -30,3 +30,6 @@ This data was downloaded from TCGA under the NIH Genomic Data Sharing Policy
 
 ## Documentation and Diagrams
 Documentation and data dictionary are in docs/coloncancer_database_documentation and model diagrams are located in diagrams.
+
+## Important Note
+Again, raw mutation data and SQL dump is not in this repository as they are too large to upload; make sure to download that file and create insert_data.sql in addition to using the data here. 
