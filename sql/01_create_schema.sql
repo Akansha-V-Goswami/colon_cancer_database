@@ -196,16 +196,16 @@ CREATE TABLE RNA_EXPRESSION (
     FOREIGN KEY (gene_id)   REFERENCES GENE(gene_id)
 );
 
--- Protein / phosphoprotein expression
+Protein / phosphoprotein expression
 -- (add when quantitative proteomics data becomes available;
 --  current dataset only has boolean presence flags on SAMPLE)
--- CREATE TABLE PROTEIN_EXPRESSION (
---     expression_id    INT    PRIMARY KEY,
---     sample_id        INT    NOT NULL,
---     gene_id          INT    NOT NULL,
---     expression_value FLOAT,
---     is_phospho       BOOLEAN,
---
---     FOREIGN KEY (sample_id) REFERENCES SAMPLE(sample_id),
---     FOREIGN KEY (gene_id)   REFERENCES GENE(gene_id)
--- );
+CREATE TABLE PROTEIN_EXPRESSION (
+     expression_id    INT    PRIMARY KEY,
+     sample_id        INT    NOT NULL,
+     gene_id          INT    NOT NULL,
+     expression_value FLOAT,
+     is_phospho       BOOLEAN,
+
+     FOREIGN KEY (sample_id) REFERENCES SAMPLE(sample_id),
+     FOREIGN KEY (gene_id)   REFERENCES GENE(gene_id)
+ );
