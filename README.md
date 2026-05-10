@@ -33,5 +33,5 @@ This data was downloaded from TCGA under the NIH Genomic Data Sharing Policy
 7. Compare with documentation to make sure database was properly created. 
 
 ## Documentation and Diagrams
-Documentation and data dictionary are in docs/coloncancer_database_documentation and model diagrams are located in diagrams.
+Documentation and data dictionary are in docs/colon_cancer_database_documentation and model diagrams are located in diagrams.
 
